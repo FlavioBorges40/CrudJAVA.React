@@ -1,0 +1,28 @@
+http://s1pacp01/proxy/proxy.pac
+
+CONFIGURAÇÃO PARA DOWNLOAD DE RECURSOS
+
+npm config set proxy http://10.6.0.227:9090
+npm config set https-proxy http://10.6.0.227:9090
+npm config set registry http://registry.npmjs.org/
+
+JSX 
+CICLO DE VIDA
+COMPONENTES
+PROPS
+
+Linguagem Typescript:
+
+               https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html
+
+React
+               JSX
+               Propriedades
+               State e Ciclo de Vida
+               Component
+
+https://fettblog.eu/typescript-react/components/
+
+
+Components
+               https://www.pluralsight.com/guides/composing-react-components-with-typescript

@@ -1,0 +1,54 @@
+Tutorial Java:
+http://tutorialspoint.com/java/index.htm
+
+PESQUISAR SOBRE KOTLIN
+
+Tipos de mídia no Jax-RS:
+http://jsr311.java.net/nonav/releases/1.0/javax/ws/rs/core/MediaType.html
+
+Interações com formulário:
+http://www.w3.org/TR/html401/interact/forms.html#h-17.13.4.1
+
+Informações relevantes contidas no arquivo "javaeetutorial6"
+
+Página 381 - Estrutura de webservices RESTful utilizando JAX-RS.
+Página 401 - Informações extras sobre JAX-RS.
+Página 403 - Extração de Dados e Anotações mais avançadas.
+Página 629 - Query usando JPA.
+
+<dependency>
+	<groupId>javaX</groupId>
+	<artifactId>javaee-api</artifactId>
+	<version>7.0</version>
+	<scope>provided</scope>
+</dependency>
+
+URI da Api de Treino:
+@GET
+
+/list
+
+/get/{id}
+               
+/create/{name}/{mensagem}
+
+/update/{id}/{name}/{mensagem}
+
+/delete/{id}
+
+F175609
+
+SQL
+
+CREATE TABLE Notifications(
+	id varchar(255),
+	name varchar(255),
+	msg varchar(255),
+	primary key(id)
+)
+
+SELECT * FROM Notifications
+
+INSERT INTO Notifications(name,msg) VALUES ('Gatts','Teste')
+
+DROP TABLE Notifications
