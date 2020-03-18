@@ -1,0 +1,18 @@
+No arquivo: server.xml
+
+  <GlobalNamingResources>
+		<Resource name="jdbc/sqldb" auth="Container"
+            type="javax.sql.DataSource" username="U998" password="P@ssw0rd"
+            driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+            url="jdbc:sqlserver://S2EQUD04:1433;databaseName=DBPOC"
+        />
+  </GlobalNamingResources>
+  
+No arquivo: tomee.xml
+
+		<Resource name="jdbc/sqldb" auth="Container"
+            type="javax.sql.DataSource" username="U998" password="P@ssw0rd"
+            driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" 
+            url="jdbc:sqlserver://S2EQUD04:1433;databaseName=DBPOC"
+		/>
+		
